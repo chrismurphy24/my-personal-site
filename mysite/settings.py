@@ -25,7 +25,9 @@ SECRET_KEY = '$u$p(1*(c0g2+h&7%66q&lzbril63sj8xz#nnspn+6g$wdj@ze'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '192.168.1.162'
+]
 
 
 # Application definition
@@ -50,6 +52,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'mysite.urls'
+
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 
 TEMPLATES = [
     {
