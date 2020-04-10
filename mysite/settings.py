@@ -26,6 +26,7 @@ SECRET_KEY = '$u$p(1*(c0g2+h&7%66q&lzbril63sj8xz#nnspn+6g$wdj@ze'
 DEBUG = True
 
 ALLOWED_HOSTS = [
+    'localhost',
     '192.168.1.162'
 ]
 
@@ -58,7 +59,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, "static/")
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
