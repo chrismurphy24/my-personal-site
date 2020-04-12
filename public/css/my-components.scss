@@ -1,0 +1,16 @@
+// Material Theming
+// After importing all MDC Web components, apply mixins to theme individual components
+
+
+
+// Top app bar
+
+.mdc-top-app-bar {
+  @include mdc-elevation(4);
+  position: relative;
+  z-index: 1;
+
+  &:not(.mdc-top-app-bar--short) {
+    width: 100%;
+  }
+}

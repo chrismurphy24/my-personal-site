@@ -1,0 +1,17 @@
+// Import global Material Theming variables
+@import "my-theme";
+
+// Import styles for each MDC Web component
+@import "@material/button";
+@import "@material/drawer/mdc-drawer";
+@import "@material/icon-button/mdc-icon-button";
+@import "@material/list/mdc-list";
+@import "@material/theme/color-palette";
+@import "@material/theme/functions";
+@import "@material/theme/mixins";
+@import "@material/top-app-bar/mdc-top-app-bar";
+@import "@material/typography/mdc-typography";
+
+// Import site-specific CSS files
+@import "my-layout";
+@import "my-components";

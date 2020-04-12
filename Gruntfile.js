@@ -1,24 +1,20 @@
+'use strict';
+
 const sass = require('node-sass');
+const webpackConfig = require('./webpack.config.js');
 
 module.exports = function(grunt) {
 
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    sass: {
-		options: {
-			implementation: sass,
-			sourceMap: true
-		},
-		dist: {
-			files: {
-				'main.css': 'main.scss'
-			}
-		}
-	}
+    webpack: {
+        base: webpackConfig.BASE
+    }
   });
 
+  grunt.loadNpmTasks('grunt-webpack');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   // Default task(s).
-  grunt.registerTask('default');
-
+  grunt.registerTask('build', ['webpack:base']);
 };
