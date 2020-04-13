@@ -8,7 +8,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
 $mdc-typography-font-family: unquote("Roboto, sans-serif");
 
-
 /* Shape */
 // The shapes of small, medium, and large components can be themed by overriding the default values. We recommend using our shape customization tool to help you pick your radius values. https://material.io/design/shape/about-shape.html#shape-customization-tool
 
@@ -24,7 +23,6 @@ $mdc-shape-large-component-radius: 0px;
 
 $mdc-theme-primary: #546e7a;
 $mdc-theme-secondary: #1976d2;
-
 
 // Theme background ($mdc-theme-background) appears behind scrollable content. Surface color ($mdc-theme-surface) is mapped to the surface of components such as cards, sheets, and menus. Error color ($mdc-theme-error) is used to indicate an error state for components such as text fields provided with inaccurate input.
 

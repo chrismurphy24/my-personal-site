@@ -5,7 +5,7 @@ const base_config = {
     mode: 'development',
     entry: ['./public/css/app.scss', './public/js/app.js'],
     output: {
-        filename: 'static/main-bundle.js',
+        filename: 'static/js/main-bundle.js',
     },
     module: {
         rules: [
@@ -15,7 +15,7 @@ const base_config = {
                   {
                     loader: 'file-loader',
                     options: {
-                      name: 'static/main-bundle.css',
+                      name: 'static/css/main-bundle.css',
                     },
                   },
                   {loader: 'extract-loader'},
@@ -29,11 +29,13 @@ const base_config = {
                   {
                     loader: 'sass-loader',
                     options: {
-                      // Prefer Dart Sass
-                      implementation: require('sass'),
-                      sassOptions: {
-                        includePaths: ['./node_modules'],
-                      },
+                        //temp workaround
+                        webpackImporter: false,
+                        // Prefer Dart Sass
+                        implementation: require('sass'),
+                        sassOptions: {
+                            includePaths: ['./node_modules'],
+                        },
                     },
                   }
                 ],

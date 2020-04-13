@@ -12,21 +12,20 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 
     <!-- my main styling bundle with custom material theme -->
-    <link rel="stylesheet" href="static/main-bundle.css">
+    <link rel="stylesheet" href="static/css/main-bundle.css">
 
 </head>
-<body>
-    <header class="mdc-top-app-bar">
-      <div class="mdc-top-app-bar__row">
-        <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-          <button class="material-icons mdc-top-app-bar__navigation-icon mdc-icon-button">menu</button>
-          <span class="mdc-top-app-bar__title">Chris' Site</span>
-        </section>
-      </div>
+<body class="mdc-typography">
+    <header class=" mdc-top-app-bar mdc-top-app-bar--short">
+        <div class="mdc-top-app-bar__row">
+            <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+              <button class="mdc-icon-button material-icons mdc-top-app-bar__navigation-icon--unbounded">menu</button><span class="mdc-top-app-bar__title">Chris Murphy</span>
+          </section>
+        </div>
     </header>
-    <div id="content">
+    <div id="main-content" class="mdc-top-app-bar--short-fixed-adjust">
         {% block content %}{% endblock %}
     </div>
 </body>
-<script src="static/main-bundle.js"></script>
+<script src="static/js/main-bundle.js"></script>
 </html>

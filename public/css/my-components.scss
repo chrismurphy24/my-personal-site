@@ -3,14 +3,26 @@
 
 
 
-// Top app bar
 
 .mdc-top-app-bar {
-  @include mdc-elevation(4);
-  position: relative;
-  z-index: 1;
+    @include mdc-elevation(4);
+}
 
-  &:not(.mdc-top-app-bar--short) {
-    width: 100%;
-  }
+.my-section-panel {
+    @include mdc-elevation(2);
+    border-radius: $mdc-shape-medium-component-radius;
+    padding: 24px;
+}
+
+.my-card {
+    padding: 16px;
+    @include mdc-elevation(2, $mdc-theme-primary, 1);
+
+    &:hover {
+        @include mdc-elevation(6, $mdc-theme-primary, 2);
+    }
+}
+
+.my-card__media {
+  background-image: url("/media/test.jpg");
 }
