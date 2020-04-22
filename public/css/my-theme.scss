@@ -5,8 +5,12 @@
 /*  Typography */
 // To change your theme's typography, we recommend importing a font from Google Fonts and setting the global font-family https://fonts.google.com
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
-$mdc-typography-font-family: unquote("Roboto, sans-serif");
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Oxygen&display=swap');
+$mdc-typography-font-family: unquote("Oxygen, sans-serif");
+
+$mdc-typography-styles-body1: (
+  font-family: unquote("Lato, sans-serif")
+);
 
 /* Shape */
 // The shapes of small, medium, and large components can be themed by overriding the default values. We recommend using our shape customization tool to help you pick your radius values. https://material.io/design/shape/about-shape.html#shape-customization-tool
@@ -21,8 +25,8 @@ $mdc-shape-large-component-radius: 0px;
 
 // Primary colors ($mdc-theme-primary) map to components such as app bars and buttons, while secondary colors ($mdc-theme-secondary) are used as accents on components such as FABs and selection controls.
 
-$mdc-theme-primary: #546e7a;
-$mdc-theme-secondary: #1976d2;
+$mdc-theme-primary: #1976d2;
+$mdc-theme-secondary: #546e7a;
 
 // Theme background ($mdc-theme-background) appears behind scrollable content. Surface color ($mdc-theme-surface) is mapped to the surface of components such as cards, sheets, and menus. Error color ($mdc-theme-error) is used to indicate an error state for components such as text fields provided with inaccurate input.
 

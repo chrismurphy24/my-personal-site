@@ -1,22 +1,38 @@
-// Material Theming
-// After importing all MDC Web components, apply mixins to theme individual components
-
-
 
 
 .mdc-top-app-bar {
     @include mdc-elevation(4);
 }
 
+#about-me-img-container {
+    @include aspect-ratio(1,1);
+    > .aspect-content {
+        background-image: url("/media/chris-square.png");
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+}
+
+#my-about-masonry-image-list {
+    @include mdc-image-list-masonry-columns(3);
+}
+
 .my-section-panel {
-    @include mdc-elevation(2);
-    border-radius: $mdc-shape-medium-component-radius;
-    padding: 24px;
+    padding: 32px;
+    .section-header {
+        margin-top: 12px;
+        margin-bottom: 24px;
+    }
+}
+
+.my-section-divider {
+    height:0px;
+    border-bottom: $mdc-theme-secondary 1px solid;
 }
 
 .my-card {
     padding: 16px;
-    @include mdc-elevation(2, $mdc-theme-primary, 1);
 
     &:hover {
         @include mdc-elevation(6, $mdc-theme-primary, 2);

@@ -40,6 +40,7 @@
 @import "@material/typography/mdc-typography";
 @import "@material/data-table/mdc-data-table";
 
-// Import site-specific CSS files
+//my stuff
+@import "my-mixins";
 @import "my-layout";
 @import "my-components";

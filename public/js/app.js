@@ -5,10 +5,6 @@ import {MDCTopAppBar} from '@material/top-app-bar';
 // Import my theme variables
 import themeName from './my-theme';
 
-// Top app bar
-const topAppBarElement = document.querySelector('.mdc-top-app-bar');
-const topAppBar = new MDCTopAppBar(topAppBarElement);
-
 // enable ripple
 const iconButtonRipple = new MDCRipple(document.querySelector('.mdc-icon-button'));
 iconButtonRipple.unbounded = true;
