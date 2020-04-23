@@ -33,6 +33,26 @@
         </div>
     </aside>
     <div id="main-content" class="mdc-top-app-bar--short-fixed-adjust">
+        <div id="main-menu-wrapper" class="mdc-menu-surface--anchor">
+            <button id="my-main-menu-button"
+               class="mdc-icon-button"
+               aria-label="Show-menu"
+               aria-pressed="false">
+               <i class="material-icons mdc-icon-button__icon mdc-icon-button__icon--on">menu_open</i>
+               <i class="material-icons mdc-icon-button__icon">menu</i>
+            </button>
+            <div id="my-main-menu" class="mdc-menu mdc-menu-surface">
+                <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical" tabindex="-1">
+                 <li class="mdc-list-item" role="menuitem">
+                   <span class="mdc-list-item__text">Home</span>
+                 </li>
+                 <li class="mdc-list-item" role="menuitem">
+                   <span class="mdc-list-item__text">Blog</span>
+                 </li>
+               </ul>
+            </div>
+        </div>
+
         {% block content %}{% endblock %}
     </div>
 </body>

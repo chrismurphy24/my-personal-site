@@ -1,13 +1,41 @@
 import {MDCIconButtonToggle} from '@material/icon-button';
+import {MDCMenu} from '@material/menu';
 import {MDCRipple} from '@material/ripple';
 import {MDCTopAppBar} from '@material/top-app-bar';
+
 
 // Import my theme variables
 import themeName from './my-theme';
 
-// enable ripple
-const iconButtonRipple = new MDCRipple(document.querySelector('.mdc-icon-button'));
-iconButtonRipple.unbounded = true;
+const mainEl = document.querySelector('#main-content');
+
+// enable ripple on all buttons
+const buttonEls = Array.from(mainEl.querySelectorAll('.mdc-button'));
+buttonEls.forEach((el) => new MDCRipple(el));
+
+//main menu
+const mainMenu = new MDCMenu(document.querySelector('#my-main-menu'));
+mainMenu.open = false;
+
+//main menu button
+const iconToggleEl = document.querySelector('#my-main-menu-button')
+const iconToggle = new MDCIconButtonToggle(iconToggleEl);
+iconToggleEl.addEventListener("MDCIconButtonToggle:change", function() {
+    mainMenu.open = event.detail.isOn
+});
+
+
+
+// Toggle between permanent drawer and modal drawer at 1310px
+const layoutForScreenSize = () => {
+  if (window.matchMedia("(max-width: 1310px)").matches) {
+    initModalDrawer();
+    mainEl.classList.add('mdc-top-app-bar--fixed-adjust');
+  } else {
+    destroyModalDrawer();
+    mainEl.classList.remove('mdc-top-app-bar--fixed-adjust');
+  }
+}
 
 window.addEventListener('resize', layoutForScreenSize);
 layoutForScreenSize();

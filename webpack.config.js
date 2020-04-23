@@ -51,19 +51,4 @@ const base_config = {
     },
 };
 
-// blog_config = {
-//     entry: path.resolve(__dirname, './site_app/client/blog_index.jsx'),
-//     modules: {
-//         rules: [
-//             {
-//                 test: /\.js$/,
-//                 exclude: /node_modules/,
-//                 loader: "babel-loader"
-//             }
-//         ]
-//     }
-// };
-
-
 exports.BASE = base_config;
-exports.ALL = [base_config,];

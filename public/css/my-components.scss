@@ -4,6 +4,17 @@
     @include mdc-elevation(4);
 }
 
+#main-menu-wrapper {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+}
+
+#my-intro {
+    padding-left: 24px;
+    border-left: 1px solid $mdc-theme-secondary;
+}
+
 #about-me-img-container {
     @include aspect-ratio(1,1);
     > .aspect-content {
