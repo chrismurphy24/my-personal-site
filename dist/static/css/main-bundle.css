@@ -1539,9 +1539,9 @@ svg.mdc-button__icon {
   color: rgba(0, 0, 0, 0.87);
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Oxygen, sans-serif;
+  font-family: Lato, sans-serif;
   /* @alternate */
-  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Oxygen, sans-serif));
+  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Lato, sans-serif));
   font-size: 0.875rem;
   /* @alternate */
   font-size: var(--mdc-typography-body2-font-size, 0.875rem);
@@ -2360,9 +2360,9 @@ svg.mdc-button__icon {
 .mdc-drawer .mdc-list-group__subheader {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Oxygen, sans-serif;
+  font-family: Lato, sans-serif;
   /* @alternate */
-  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Oxygen, sans-serif));
+  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Lato, sans-serif));
   font-size: 0.875rem;
   /* @alternate */
   font-size: var(--mdc-typography-body2-font-size, 0.875rem);
@@ -2491,9 +2491,9 @@ svg.mdc-button__icon {
 .mdc-drawer__subtitle {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Oxygen, sans-serif;
+  font-family: Lato, sans-serif;
   /* @alternate */
-  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Oxygen, sans-serif));
+  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Lato, sans-serif));
   font-size: 0.875rem;
   /* @alternate */
   font-size: var(--mdc-typography-body2-font-size, 0.875rem);
@@ -3065,9 +3065,9 @@ svg.mdc-button__icon {
 .mdc-form-field {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Oxygen, sans-serif;
+  font-family: Lato, sans-serif;
   /* @alternate */
-  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Oxygen, sans-serif));
+  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Lato, sans-serif));
   font-size: 0.875rem;
   /* @alternate */
   font-size: var(--mdc-typography-body2-font-size, 0.875rem);
@@ -4761,9 +4761,9 @@ svg.mdc-button__icon {
 .mdc-list-item__secondary-text {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Oxygen, sans-serif;
+  font-family: Lato, sans-serif;
   /* @alternate */
-  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Oxygen, sans-serif));
+  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Lato, sans-serif));
   font-size: 0.875rem;
   /* @alternate */
   font-size: var(--mdc-typography-body2-font-size, 0.875rem);
@@ -6946,9 +6946,9 @@ a.mdc-list-item {
 .mdc-slider__pin-value-marker {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Oxygen, sans-serif;
+  font-family: Lato, sans-serif;
   /* @alternate */
-  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Oxygen, sans-serif));
+  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Lato, sans-serif));
   font-size: 0.875rem;
   /* @alternate */
   font-size: var(--mdc-typography-body2-font-size, 0.875rem);
@@ -7128,9 +7128,9 @@ a.mdc-list-item {
 .mdc-snackbar__label {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Oxygen, sans-serif;
+  font-family: Lato, sans-serif;
   /* @alternate */
-  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Oxygen, sans-serif));
+  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Lato, sans-serif));
   font-size: 0.875rem;
   /* @alternate */
   font-size: var(--mdc-typography-body2-font-size, 0.875rem);
@@ -10531,9 +10531,9 @@ a.mdc-list-item {
 .mdc-typography--body2 {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Oxygen, sans-serif;
+  font-family: Lato, sans-serif;
   /* @alternate */
-  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Oxygen, sans-serif));
+  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Lato, sans-serif));
   font-size: 0.875rem;
   /* @alternate */
   font-size: var(--mdc-typography-body2-font-size, 0.875rem);
@@ -10639,9 +10639,9 @@ a.mdc-list-item {
 .mdc-data-table__content {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Oxygen, sans-serif;
+  font-family: Lato, sans-serif;
   /* @alternate */
-  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Oxygen, sans-serif));
+  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Lato, sans-serif));
   font-size: 0.875rem;
   /* @alternate */
   font-size: var(--mdc-typography-body2-font-size, 0.875rem);
@@ -10759,9 +10759,9 @@ a.mdc-list-item {
 .mdc-data-table__cell {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: Oxygen, sans-serif;
+  font-family: Lato, sans-serif;
   /* @alternate */
-  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Oxygen, sans-serif));
+  font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Lato, sans-serif));
   font-size: 0.875rem;
   /* @alternate */
   font-size: var(--mdc-typography-body2-font-size, 0.875rem);
@@ -10988,6 +10988,14 @@ body {
   margin: 0;
 }
 
+body {
+  background-color: #f5f5f6;
+}
+
+.hidden {
+  display: none;
+}
+
 .mdc-top-app-bar {
   /* @alternate */
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
@@ -11041,7 +11049,7 @@ body {
   padding: 32px;
 }
 .my-section-panel .section-header {
-  margin-top: 12px;
+  margin-top: 16px;
   margin-bottom: 24px;
 }
 
@@ -11051,11 +11059,38 @@ body {
 }
 
 .my-card {
-  padding: 16px;
+  /* @alternate */
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 .my-card:hover {
   /* @alternate */
-  box-shadow: 0px 3px 5px -1px #1976d2, 0px 6px 10px 0px #1976d2, 0px 1px 18px 0px #1976d2;
+  box-shadow: 0px 2px 4px -1px #546e7a, 0px 4px 5px 0px #546e7a, 0px 1px 10px 0px #546e7a;
+}
+
+.career-card {
+  transition: height 1.5s ease;
+}
+.career-card .career-card-header {
+  padding: 0px 16px;
+  background-color: #1976d2;
+  color: #ffffff;
+}
+.career-card .career-card-header .job-company {
+  margin-bottom: 0px;
+}
+.career-card .career-card-header .job-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.career-card .career-card-body {
+  padding: 8px 16px;
+}
+.career-card.career-expanded {
+  height: 150%;
+  transition: height 1.5s ease;
+}
+.career-card .mdc-card__primary-action {
+  height: 100%;
 }
 
 .my-card__media {

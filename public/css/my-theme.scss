@@ -11,6 +11,9 @@ $mdc-typography-font-family: unquote("Oxygen, sans-serif");
 $mdc-typography-styles-body1: (
   font-family: unquote("Lato, sans-serif")
 );
+$mdc-typography-styles-body2: (
+  font-family: unquote("Lato, sans-serif")
+);
 
 /* Shape */
 // The shapes of small, medium, and large components can be themed by overriding the default values. We recommend using our shape customization tool to help you pick your radius values. https://material.io/design/shape/about-shape.html#shape-customization-tool

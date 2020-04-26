@@ -1,4 +1,11 @@
 
+body {
+    background-color: $mdc-theme-background;
+}
+
+.hidden {
+    display: none;
+}
 
 .mdc-top-app-bar {
     @include mdc-elevation(4);
@@ -32,7 +39,7 @@
 .my-section-panel {
     padding: 32px;
     .section-header {
-        margin-top: 12px;
+        margin-top: 16px;
         margin-bottom: 24px;
     }
 }
@@ -43,10 +50,37 @@
 }
 
 .my-card {
-    padding: 16px;
-
+    @include mdc-elevation(2);
     &:hover {
-        @include mdc-elevation(6, $mdc-theme-primary, 2);
+        @include mdc-elevation(4, $mdc-theme-secondary, 2);
+    }
+}
+
+.career-card {
+    transition: height 1.5s ease 0.5s;
+
+    .career-card-header {
+        padding: 0px 16px;
+        background-color: $mdc-theme-primary;
+        color: $mdc-theme-on-primary;
+        .job-company {
+            margin-bottom: 0px;
+        }
+        .job-title {
+            margin-top: 0px;
+            margin-bottom: 10px;
+        }
+    }
+    .career-card-body {
+        padding: 8px 16px;
+    }
+    &.career-expanded {
+        height: 150%;
+        transition: height 1.5s ease;
+    }
+    // this is so contents expand with card
+    .mdc-card__primary-action {
+        height: 100%
     }
 }
 
