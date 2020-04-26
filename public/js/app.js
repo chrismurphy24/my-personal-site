@@ -47,14 +47,15 @@ console.log(careerCardExpansionMap);
 careerCardElArray.forEach((cardEl) => {
     cardEl.addEventListener('click', function(event) {
         const clicked_id = this.id;
+        this.classList.toggle('career-expanded');
         console.log(clicked_id);
-        if (careerCardExpansionMap.get(clicked_id)) {
-            this.classList.remove('career-expanded');
-            careerCardExpansionMap.set(clicked_id, false);
-        } else {
-            this.classList.add('career-expanded');
-            careerCardExpansionMap.set(clicked_id, true);
-        }
+        // if (careerCardExpansionMap.get(clicked_id)) {
+        //     this.classList.remove('career-expanded');
+        //     careerCardExpansionMap.set(clicked_id, false);
+        // } else {
+        //     this.classList.add('career-expanded');
+        //     careerCardExpansionMap.set(clicked_id, true);
+        // }
     });
 });
 

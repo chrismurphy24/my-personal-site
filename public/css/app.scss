@@ -2,6 +2,7 @@
 @import "my-theme";
 
 // Import styles for each MDC Web component
+@import "@material/animation";
 @import "@material/button/mdc-button";
 @import "@material/card/mdc-card";
 @import "@material/checkbox/mdc-checkbox";
